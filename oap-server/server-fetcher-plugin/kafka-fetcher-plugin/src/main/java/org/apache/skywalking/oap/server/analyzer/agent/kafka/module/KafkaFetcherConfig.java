@@ -96,5 +96,7 @@ public class KafkaFetcherConfig extends ModuleConfig {
     private String mm2SourceAlias = "";
 
     private String mm2SourceSeparator = "";
+
+    private int consumers = 1;
     
 }
